@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Onceupona</string>
+    <string name="subtitle">O Escritor Surrealista</string>
+    <string name="basic">Básico</string>
+    <string name="modo">Escolha o Modo</string>
+    <string name="custum">Customizado</string>
+    <string name="custumTitle">Customizar jogo</string>
+    <string name="NumJog">Número de jogadores</string>
+    <string name="NumCar">Número máximo \n de caracteres</string>
+    <string name="RR">Round Robin</string>
+    <string name="Random">Aleatório</string>
+    <string name="NumRond">Número de rondas</string>
+    <string name="Next">Seguinte</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="Start">Começar</string>
+    <string name="End">Terminar</string>
+    <string name="FileName">Insira o nome do ficheiro onde pretende guardar o texto:</string>
+    <string name="Save">Guardar</string>
+    <string name="Hist">Histórico</string>
+    <string name="Delete">Apagar</string>
+    <string name="yes">Sim</string>
+    <string name="ApagSuc">Apagado com Sucesso</string>
+    <string name="sure">Tem a certeza que quer apagar?</string>
+    <string name="Warning">Aviso!!</string>
+    <string name="SaveSuc">Salvo com sucesso!</string>
+    <string name="WTD">O que pretende fazer?</string>
+    <string name="player">Jogadores</string>
+    <string name="end">Texto Gerado</string>
+    <string name="restart">Recomeçar</string>
+    <string name="este">Este!</string>
+    <string name="textoBasico"> Modo com apenas dois jogadores, com o máximo de caracteres igual a 140 e 5 rondas.</string>
+    <string name="textoCustumizado"> Neste modo o utilizador pode customizar todos os aspetos do jogo.</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Historico"
+    android:background="@color/colorPrimary"
+    android:padding="5pt"
+    android:overScrollMode="always">
+
+
+    <TextView
+        android:id="@+id/tHistorico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/latolight"
+        android:text="@string/Hist"
+        android:textColor="@color/colorSecundary"
+        android:textSize="35sp"
+        android:padding="5pt" />
+
+
+    <ListView
+        android:id="@+id/histls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1sp"
+        android:layout_below="@+id/tHistorico"/>
+
+</RelativeLayout>

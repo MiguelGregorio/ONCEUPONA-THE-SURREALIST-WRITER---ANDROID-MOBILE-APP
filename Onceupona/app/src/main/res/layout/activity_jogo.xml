@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jogo"
+    android:background="@color/colorPrimary"
+    android:padding="5pt">
+
+
+    <TextView
+        android:id="@+id/Jogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/latolight"
+        android:text="Jogador"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/ronda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Jogador"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/latoblack"
+        android:text="1/20" />
+
+    <TextView
+        android:layout_below="@id/ronda"
+        android:layout_centerHorizontal="true"
+        android:text="Ultimas Palavras"
+        android:id="@+id/LastWords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/latoregular"/>
+
+    <FrameLayout
+        android:layout_marginTop="5pt"
+        android:layout_marginBottom="5pt"
+        android:layout_below="@id/LastWords"
+        android:layout_above="@id/Next"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/whitebotton"
+        >
+    <EditText
+        android:gravity="center"
+        android:background="@null"
+        android:layout_margin="10dp"
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Next"
+        android:layout_alignParentBottom="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Next"
+        android:background="@drawable/orangebutton"
+        android:fontFamily="@font/latoblack"
+        />
+
+
+</RelativeLayout>

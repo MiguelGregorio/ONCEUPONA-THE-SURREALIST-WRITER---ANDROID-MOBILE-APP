@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5pt"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecundary"
+        android:text="@string/modo"
+        android:fontFamily="@font/latolight"
+        android:textSize="35sp"
+        android:padding="5pt"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5pt"
+        android:layout_weight="1"
+        android:background="@drawable/whitebotton">
+
+        <TextView
+            android:id="@+id/Button02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/basic"
+            android:fontFamily="@font/latoblack"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_marginTop="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15sp"
+            android:text="@string/textoBasico"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="@drawable/orangebutton"
+            android:fontFamily="@font/latoblack"
+            android:onClick="BtBasic"
+            android:text="@string/este"
+            android:textSize="15sp"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="5pt"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/whitebotton"
+        android:layout_weight="1"
+        android:layout_margin="5pt">
+
+        <TextView
+            android:id="@+id/Button03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/custum"
+            android:fontFamily="@font/latoblack"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary" />
+        <TextView
+            android:layout_marginTop="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15sp"
+            android:text="@string/textoCustumizado"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:fontFamily="@font/latoblack"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="@drawable/orangebutton"
+            android:text="@string/este"
+            android:onClick="BtCust"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="5pt"/>
+    </FrameLayout>
+
+</LinearLayout>

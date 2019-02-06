@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarJogadores"
+    android:background="@color/colorPrimary"
+    android:padding="5pt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/titlePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/latolight"
+        android:text="@string/player"
+        android:textColor="@color/colorSecundary"
+        android:textSize="35sp"
+        android:padding="5pt" />
+
+        <ListView
+
+            android:id="@+id/ListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="20dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="Comecar"
+        android:id="@+id/btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ovalbutton"
+        android:fontFamily="@font/latoblack"
+        android:drawable="@drawable/shuffle"
+        />
+</RelativeLayout>
